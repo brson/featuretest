@@ -1,0 +1,9 @@
+[package]
+name = "b"
+version = "0.1.0"
+authors = ["Brian Anderson <andersrb@gmail.com>"]
+edition = "2018"
+
+# b depends on the "foo" feature of a by default
+[dependencies.a]
+path = "../a"

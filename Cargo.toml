@@ -1,0 +1,18 @@
+[package]
+name = "featuretest"
+version = "0.1.0"
+authors = ["Brian Anderson <andersrb@gmail.com>"]
+edition = "2018"
+
+[dependencies.a]
+default-features = false
+path = "a"
+
+[dependencies.b]
+path = "b"
+
+[dependencies.c]
+path = "c"
+
+[dependencies.d]
+path = "d"

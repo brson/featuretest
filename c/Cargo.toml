@@ -1,0 +1,12 @@
+[package]
+name = "c"
+version = "0.1.0"
+authors = ["Brian Anderson <andersrb@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+# c depends on the foo feature explicitly
+[dependencies.a]
+features = ["foo"]
+path = "../a"

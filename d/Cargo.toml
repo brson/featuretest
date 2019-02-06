@@ -1,0 +1,9 @@
+[package]
+name = "d"
+version = "0.1.0"
+authors = ["Brian Anderson <andersrb@gmail.com>"]
+edition = "2018"
+
+# d depends on the "bar" feature by default
+[dependencies.a]
+path = "../a"
